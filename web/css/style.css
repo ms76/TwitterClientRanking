@@ -1,0 +1,150 @@
+@CHARSET "UTF-8";
+body {
+    font-size: 80%;
+    color: #222;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, "ヒラギノ丸ゴ Pro W4", HiraMaruPro-W4, "ヒラギノ角ゴ Pro W3", HiraKakuPro-W3, Osaka, sans-serif;
+}
+
+div#header {
+    width: 900px;
+    position: relative;
+    margin: 0 auto;
+    clear: both;
+}
+
+div#content {
+    width: 900px;
+    position: relative;
+    margin: 0 auto;
+    clear: both;
+}
+
+h1 {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+h2 {
+}
+
+div#extract_form {
+    margin: 15px 0;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+div#table {
+    width: 445px;
+    float: left;
+}
+
+table.result {
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    width: 100%;
+}
+
+table.result tr.header {
+}
+
+table.result th {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    background-color: #222;
+    padding: 1px 3px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+table.result tr.record {
+    cursor: pointer;
+}
+
+table.result tr.over {
+    display: none;
+}
+
+table.result td {
+    padding: 1px 3px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+table.result td.rank {
+    text-align: right;
+}
+
+table.result td.source {
+}
+
+table.result td.count {
+    text-align: right;
+}
+
+table.result td.ratio {
+    text-align: right;
+}
+
+div#view_all {
+    text-align: right;
+    margin-top: 5px;
+    color: #444;
+    font-size: 140%;
+}
+
+div#view_all span {
+    cursor: pointer;
+}
+
+div#chart {
+    float: right;
+    z-index: 900;
+}
+
+div#chart_overlay {
+    display: none;
+}
+
+div#overlay_image {
+    display: none;
+}
+
+div#compare {
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    height: 1.5em;
+    clear: both;
+}
+
+div#compare div#target {
+    float: left;
+}
+
+div#compare button#submit {
+    display: block;
+    float: right;
+    visibility: hidden;
+}
+
+div#footer {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0 10px 0;
+    margin-top: 15px;
+    background-color: #222;
+    border-top: 1px solid #999;
+    color: #fff;
+    clear: both;
+    overflow: hidden;
+}
+
+div.error_message {
+    color: #f00;
+    font-weight: bold;
+}
+
+div.clear {
+    clear: both;
+}

@@ -1,0 +1,20 @@
+autoload:
+  mymongodb:
+    name: mymongodb
+    path: %SF_LIB_DIR%/db/MyMongoDB
+    recursive: off
+
+  mongodto:
+    name: mongodto
+    path: %SF_LIB_DIR%/data/MongoDto
+    recursive: off
+
+  sampledto:
+    name: sampledto
+    path: %SF_LIB_DIR%/data/SampleDto
+    recursive: off
+    
+  sampledao:
+    name: sampledao
+    path: %SF_LIB_DIR%/data/SampleDao
+    recursive: off

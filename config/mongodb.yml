@@ -1,0 +1,6 @@
+all:
+  master:
+    param:
+      dns: mongodb://localhost:27017
+      username:
+      password:
