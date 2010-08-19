@@ -4,13 +4,13 @@ $(function(){
 	$('#view_all > span').mouseover(function(){
 		$(this).css({
 			"text-decoration": "underline"
-		})
+		});
 	});
 	
 	$('#view_all > span').mouseout(function(){
 		$(this).css({
 			"text-decoration": "none"
-		})
+		});
 	});
 	
 	$('#view_all > span').click(function(){
